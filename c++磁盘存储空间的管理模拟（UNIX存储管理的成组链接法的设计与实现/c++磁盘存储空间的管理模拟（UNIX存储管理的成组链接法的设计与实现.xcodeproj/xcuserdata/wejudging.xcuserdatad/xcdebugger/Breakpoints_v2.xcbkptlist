@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "c++&#x78c1;&#x76d8;&#x5b58;&#x50a8;&#x7a7a;&#x95f4;&#x7684;&#x7ba1;&#x7406;&#x6a21;&#x62df;&#xff08;UNIX&#x5b58;&#x50a8;&#x7ba1;&#x7406;&#x7684;&#x6210;&#x7ec4;&#x94fe;&#x63a5;&#x6cd5;&#x7684;&#x8bbe;&#x8ba1;&#x4e0e;&#x5b9e;&#x73b0;/main.cpp"
+            timestampString = "566308249.2031209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "InitBlock()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "c++&#x78c1;&#x76d8;&#x5b58;&#x50a8;&#x7a7a;&#x95f4;&#x7684;&#x7ba1;&#x7406;&#x6a21;&#x62df;&#xff08;UNIX&#x5b58;&#x50a8;&#x7ba1;&#x7406;&#x7684;&#x6210;&#x7ec4;&#x94fe;&#x63a5;&#x6cd5;&#x7684;&#x8bbe;&#x8ba1;&#x4e0e;&#x5b9e;&#x73b0;/main.cpp"
+            timestampString = "566308249.2036901"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "InitialAllocation()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
