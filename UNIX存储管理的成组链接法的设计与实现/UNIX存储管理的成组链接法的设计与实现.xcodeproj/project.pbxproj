@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8975BA521BD0BCC005E913B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8975BA421BD0BCC005E913B /* main.cpp */; };
+		E88F80FB21BFE78C00742AAD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E88F80FA21BFE78C00742AAD /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E8975B9F21BD0BCC005E913B /* CopyFiles */ = {
+		E88F80F521BFE78C00742AAD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E8975BA121BD0BCC005E913B /* 混合索引组织 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "混合索引组织"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8975BA421BD0BCC005E913B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E88F80F721BFE78C00742AAD /* UNIX存储管理的成组链接法的设计与实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UNIX存储管理的成组链接法的设计与实现"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88F80FA21BFE78C00742AAD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E8975B9E21BD0BCC005E913B /* Frameworks */ = {
+		E88F80F421BFE78C00742AAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8975B9821BD0BCC005E913B = {
+		E88F80EE21BFE78C00742AAD = {
 			isa = PBXGroup;
 			children = (
-				E8975BA321BD0BCC005E913B /* 混合索引组织 */,
-				E8975BA221BD0BCC005E913B /* Products */,
+				E88F80F921BFE78C00742AAD /* UNIX存储管理的成组链接法的设计与实现 */,
+				E88F80F821BFE78C00742AAD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E8975BA221BD0BCC005E913B /* Products */ = {
+		E88F80F821BFE78C00742AAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8975BA121BD0BCC005E913B /* 混合索引组织 */,
+				E88F80F721BFE78C00742AAD /* UNIX存储管理的成组链接法的设计与实现 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E8975BA321BD0BCC005E913B /* 混合索引组织 */ = {
+		E88F80F921BFE78C00742AAD /* UNIX存储管理的成组链接法的设计与实现 */ = {
 			isa = PBXGroup;
 			children = (
-				E8975BA421BD0BCC005E913B /* main.cpp */,
+				E88F80FA21BFE78C00742AAD /* main.cpp */,
 			);
-			path = "混合索引组织";
+			path = "UNIX存储管理的成组链接法的设计与实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E8975BA021BD0BCC005E913B /* 混合索引组织 */ = {
+		E88F80F621BFE78C00742AAD /* UNIX存储管理的成组链接法的设计与实现 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8975BA821BD0BCC005E913B /* Build configuration list for PBXNativeTarget "混合索引组织" */;
+			buildConfigurationList = E88F80FE21BFE78C00742AAD /* Build configuration list for PBXNativeTarget "UNIX存储管理的成组链接法的设计与实现" */;
 			buildPhases = (
-				E8975B9D21BD0BCC005E913B /* Sources */,
-				E8975B9E21BD0BCC005E913B /* Frameworks */,
-				E8975B9F21BD0BCC005E913B /* CopyFiles */,
+				E88F80F321BFE78C00742AAD /* Sources */,
+				E88F80F421BFE78C00742AAD /* Frameworks */,
+				E88F80F521BFE78C00742AAD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "混合索引组织";
-			productName = "混合索引组织";
-			productReference = E8975BA121BD0BCC005E913B /* 混合索引组织 */;
+			name = "UNIX存储管理的成组链接法的设计与实现";
+			productName = "c++磁盘存储空间的管理模拟（UNIX存储管理的成组链接法的设计与实现";
+			productReference = E88F80F721BFE78C00742AAD /* UNIX存储管理的成组链接法的设计与实现 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E8975B9921BD0BCC005E913B /* Project object */ = {
+		E88F80EF21BFE78C00742AAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = wejudging;
 				TargetAttributes = {
-					E8975BA021BD0BCC005E913B = {
+					E88F80F621BFE78C00742AAD = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = E8975B9C21BD0BCC005E913B /* Build configuration list for PBXProject "混合索引组织" */;
+			buildConfigurationList = E88F80F221BFE78C00742AAD /* Build configuration list for PBXProject "UNIX存储管理的成组链接法的设计与实现" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = E8975B9821BD0BCC005E913B;
-			productRefGroup = E8975BA221BD0BCC005E913B /* Products */;
+			mainGroup = E88F80EE21BFE78C00742AAD;
+			productRefGroup = E88F80F821BFE78C00742AAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8975BA021BD0BCC005E913B /* 混合索引组织 */,
+				E88F80F621BFE78C00742AAD /* UNIX存储管理的成组链接法的设计与实现 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E8975B9D21BD0BCC005E913B /* Sources */ = {
+		E88F80F321BFE78C00742AAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8975BA521BD0BCC005E913B /* main.cpp in Sources */,
+				E88F80FB21BFE78C00742AAD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E8975BA621BD0BCC005E913B /* Debug */ = {
+		E88F80FC21BFE78C00742AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -152,7 +151,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -186,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		E8975BA721BD0BCC005E913B /* Release */ = {
+		E88F80FD21BFE78C00742AAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +210,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -239,20 +236,18 @@
 			};
 			name = Release;
 		};
-		E8975BA921BD0BCC005E913B /* Debug */ = {
+		E88F80FF21BFE78C00742AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V25278WG86;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E8975BAA21BD0BCC005E913B /* Release */ = {
+		E88F810021BFE78C00742AAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V25278WG86;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,25 +257,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E8975B9C21BD0BCC005E913B /* Build configuration list for PBXProject "混合索引组织" */ = {
+		E88F80F221BFE78C00742AAD /* Build configuration list for PBXProject "UNIX存储管理的成组链接法的设计与实现" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8975BA621BD0BCC005E913B /* Debug */,
-				E8975BA721BD0BCC005E913B /* Release */,
+				E88F80FC21BFE78C00742AAD /* Debug */,
+				E88F80FD21BFE78C00742AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8975BA821BD0BCC005E913B /* Build configuration list for PBXNativeTarget "混合索引组织" */ = {
+		E88F80FE21BFE78C00742AAD /* Build configuration list for PBXNativeTarget "UNIX存储管理的成组链接法的设计与实现" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8975BA921BD0BCC005E913B /* Debug */,
-				E8975BAA21BD0BCC005E913B /* Release */,
+				E88F80FF21BFE78C00742AAD /* Debug */,
+				E88F810021BFE78C00742AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E8975B9921BD0BCC005E913B /* Project object */;
+	rootObject = E88F80EF21BFE78C00742AAD /* Project object */;
 }

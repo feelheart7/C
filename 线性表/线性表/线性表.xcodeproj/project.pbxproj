@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8975BA521BD0BCC005E913B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8975BA421BD0BCC005E913B /* main.cpp */; };
+		BD0747FF262040E40025BBCF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD0747FE262040E40025BBCF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E8975B9F21BD0BCC005E913B /* CopyFiles */ = {
+		BD0747F9262040E40025BBCF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E8975BA121BD0BCC005E913B /* 混合索引组织 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "混合索引组织"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8975BA421BD0BCC005E913B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BD0747FB262040E40025BBCF /* 线性表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "线性表"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0747FE262040E40025BBCF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BD0748072620422B0025BBCF /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		BD074808262042DE0025BBCF /* seqList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seqList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E8975B9E21BD0BCC005E913B /* Frameworks */ = {
+		BD0747F8262040E40025BBCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +40,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8975B9821BD0BCC005E913B = {
+		BD0747F2262040E40025BBCF = {
 			isa = PBXGroup;
 			children = (
-				E8975BA321BD0BCC005E913B /* 混合索引组织 */,
-				E8975BA221BD0BCC005E913B /* Products */,
+				BD0747FD262040E40025BBCF /* 线性表 */,
+				BD0747FC262040E40025BBCF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E8975BA221BD0BCC005E913B /* Products */ = {
+		BD0747FC262040E40025BBCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8975BA121BD0BCC005E913B /* 混合索引组织 */,
+				BD0747FB262040E40025BBCF /* 线性表 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E8975BA321BD0BCC005E913B /* 混合索引组织 */ = {
+		BD0747FD262040E40025BBCF /* 线性表 */ = {
 			isa = PBXGroup;
 			children = (
-				E8975BA421BD0BCC005E913B /* main.cpp */,
+				BD0747FE262040E40025BBCF /* main.cpp */,
+				BD0748072620422B0025BBCF /* List.h */,
+				BD074808262042DE0025BBCF /* seqList.h */,
 			);
-			path = "混合索引组织";
+			path = "线性表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E8975BA021BD0BCC005E913B /* 混合索引组织 */ = {
+		BD0747FA262040E40025BBCF /* 线性表 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8975BA821BD0BCC005E913B /* Build configuration list for PBXNativeTarget "混合索引组织" */;
+			buildConfigurationList = BD074802262040E40025BBCF /* Build configuration list for PBXNativeTarget "线性表" */;
 			buildPhases = (
-				E8975B9D21BD0BCC005E913B /* Sources */,
-				E8975B9E21BD0BCC005E913B /* Frameworks */,
-				E8975B9F21BD0BCC005E913B /* CopyFiles */,
+				BD0747F7262040E40025BBCF /* Sources */,
+				BD0747F8262040E40025BBCF /* Frameworks */,
+				BD0747F9262040E40025BBCF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "混合索引组织";
-			productName = "混合索引组织";
-			productReference = E8975BA121BD0BCC005E913B /* 混合索引组织 */;
+			name = "线性表";
+			productName = "线性表";
+			productReference = BD0747FB262040E40025BBCF /* 线性表 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E8975B9921BD0BCC005E913B /* Project object */ = {
+		BD0747F3262040E40025BBCF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1240;
-				ORGANIZATIONNAME = wejudging;
 				TargetAttributes = {
-					E8975BA021BD0BCC005E913B = {
-						CreatedOnToolsVersion = 10.1;
+					BD0747FA262040E40025BBCF = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = E8975B9C21BD0BCC005E913B /* Build configuration list for PBXProject "混合索引组织" */;
+			buildConfigurationList = BD0747F6262040E40025BBCF /* Build configuration list for PBXProject "线性表" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +107,29 @@
 				en,
 				Base,
 			);
-			mainGroup = E8975B9821BD0BCC005E913B;
-			productRefGroup = E8975BA221BD0BCC005E913B /* Products */;
+			mainGroup = BD0747F2262040E40025BBCF;
+			productRefGroup = BD0747FC262040E40025BBCF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8975BA021BD0BCC005E913B /* 混合索引组织 */,
+				BD0747FA262040E40025BBCF /* 线性表 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E8975B9D21BD0BCC005E913B /* Sources */ = {
+		BD0747F7262040E40025BBCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8975BA521BD0BCC005E913B /* main.cpp in Sources */,
+				BD0747FF262040E40025BBCF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E8975BA621BD0BCC005E913B /* Debug */ = {
+		BD074800262040E40025BBCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -159,7 +162,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -178,7 +180,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -186,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		E8975BA721BD0BCC005E913B /* Release */ = {
+		BD074801262040E40025BBCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +221,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -232,29 +233,29 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		E8975BA921BD0BCC005E913B /* Debug */ = {
+		BD074803262040E40025BBCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V25278WG86;
+				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E8975BAA21BD0BCC005E913B /* Release */ = {
+		BD074804262040E40025BBCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V25278WG86;
+				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -262,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E8975B9C21BD0BCC005E913B /* Build configuration list for PBXProject "混合索引组织" */ = {
+		BD0747F6262040E40025BBCF /* Build configuration list for PBXProject "线性表" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8975BA621BD0BCC005E913B /* Debug */,
-				E8975BA721BD0BCC005E913B /* Release */,
+				BD074800262040E40025BBCF /* Debug */,
+				BD074801262040E40025BBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8975BA821BD0BCC005E913B /* Build configuration list for PBXNativeTarget "混合索引组织" */ = {
+		BD074802262040E40025BBCF /* Build configuration list for PBXNativeTarget "线性表" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8975BA921BD0BCC005E913B /* Debug */,
-				E8975BAA21BD0BCC005E913B /* Release */,
+				BD074803262040E40025BBCF /* Debug */,
+				BD074804262040E40025BBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E8975B9921BD0BCC005E913B /* Project object */;
+	rootObject = BD0747F3262040E40025BBCF /* Project object */;
 }

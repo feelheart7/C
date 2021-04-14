@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8975BA521BD0BCC005E913B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8975BA421BD0BCC005E913B /* main.cpp */; };
+		E813FD5921A046A300257FAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E813FD5821A046A300257FAC /* main.cpp */; };
+		E813FD6121A0472D00257FAC /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E813FD6021A0472D00257FAC /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E8975B9F21BD0BCC005E913B /* CopyFiles */ = {
+		E813FD5321A046A300257FAC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E8975BA121BD0BCC005E913B /* 混合索引组织 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "混合索引组织"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8975BA421BD0BCC005E913B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E813FD5521A046A300257FAC /* 银行家算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "银行家算法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E813FD5821A046A300257FAC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E813FD5F21A046D900257FAC /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		E813FD6021A0472D00257FAC /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E8975B9E21BD0BCC005E913B /* Frameworks */ = {
+		E813FD5221A046A300257FAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8975B9821BD0BCC005E913B = {
+		E813FD4C21A046A300257FAC = {
 			isa = PBXGroup;
 			children = (
-				E8975BA321BD0BCC005E913B /* 混合索引组织 */,
-				E8975BA221BD0BCC005E913B /* Products */,
+				E813FD5721A046A300257FAC /* 银行家算法 */,
+				E813FD5621A046A300257FAC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E8975BA221BD0BCC005E913B /* Products */ = {
+		E813FD5621A046A300257FAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8975BA121BD0BCC005E913B /* 混合索引组织 */,
+				E813FD5521A046A300257FAC /* 银行家算法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E8975BA321BD0BCC005E913B /* 混合索引组织 */ = {
+		E813FD5721A046A300257FAC /* 银行家算法 */ = {
 			isa = PBXGroup;
 			children = (
-				E8975BA421BD0BCC005E913B /* main.cpp */,
+				E813FD5821A046A300257FAC /* main.cpp */,
+				E813FD5F21A046D900257FAC /* main.h */,
+				E813FD6021A0472D00257FAC /* test.cpp */,
 			);
-			path = "混合索引组织";
+			path = "银行家算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E8975BA021BD0BCC005E913B /* 混合索引组织 */ = {
+		E813FD5421A046A300257FAC /* 银行家算法 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8975BA821BD0BCC005E913B /* Build configuration list for PBXNativeTarget "混合索引组织" */;
+			buildConfigurationList = E813FD5C21A046A300257FAC /* Build configuration list for PBXNativeTarget "银行家算法" */;
 			buildPhases = (
-				E8975B9D21BD0BCC005E913B /* Sources */,
-				E8975B9E21BD0BCC005E913B /* Frameworks */,
-				E8975B9F21BD0BCC005E913B /* CopyFiles */,
+				E813FD5121A046A300257FAC /* Sources */,
+				E813FD5221A046A300257FAC /* Frameworks */,
+				E813FD5321A046A300257FAC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "混合索引组织";
-			productName = "混合索引组织";
-			productReference = E8975BA121BD0BCC005E913B /* 混合索引组织 */;
+			name = "银行家算法";
+			productName = "C++";
+			productReference = E813FD5521A046A300257FAC /* 银行家算法 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E8975B9921BD0BCC005E913B /* Project object */ = {
+		E813FD4D21A046A300257FAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = wejudging;
 				TargetAttributes = {
-					E8975BA021BD0BCC005E913B = {
+					E813FD5421A046A300257FAC = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = E8975B9C21BD0BCC005E913B /* Build configuration list for PBXProject "混合索引组织" */;
+			buildConfigurationList = E813FD5021A046A300257FAC /* Build configuration list for PBXProject "银行家算法" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = E8975B9821BD0BCC005E913B;
-			productRefGroup = E8975BA221BD0BCC005E913B /* Products */;
+			mainGroup = E813FD4C21A046A300257FAC;
+			productRefGroup = E813FD5621A046A300257FAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8975BA021BD0BCC005E913B /* 混合索引组织 */,
+				E813FD5421A046A300257FAC /* 银行家算法 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E8975B9D21BD0BCC005E913B /* Sources */ = {
+		E813FD5121A046A300257FAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8975BA521BD0BCC005E913B /* main.cpp in Sources */,
+				E813FD5921A046A300257FAC /* main.cpp in Sources */,
+				E813FD6121A0472D00257FAC /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E8975BA621BD0BCC005E913B /* Debug */ = {
+		E813FD5A21A046A300257FAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -152,7 +157,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -186,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		E8975BA721BD0BCC005E913B /* Release */ = {
+		E813FD5B21A046A300257FAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +216,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -239,20 +242,18 @@
 			};
 			name = Release;
 		};
-		E8975BA921BD0BCC005E913B /* Debug */ = {
+		E813FD5D21A046A300257FAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V25278WG86;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E8975BAA21BD0BCC005E913B /* Release */ = {
+		E813FD5E21A046A300257FAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V25278WG86;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E8975B9C21BD0BCC005E913B /* Build configuration list for PBXProject "混合索引组织" */ = {
+		E813FD5021A046A300257FAC /* Build configuration list for PBXProject "银行家算法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8975BA621BD0BCC005E913B /* Debug */,
-				E8975BA721BD0BCC005E913B /* Release */,
+				E813FD5A21A046A300257FAC /* Debug */,
+				E813FD5B21A046A300257FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8975BA821BD0BCC005E913B /* Build configuration list for PBXNativeTarget "混合索引组织" */ = {
+		E813FD5C21A046A300257FAC /* Build configuration list for PBXNativeTarget "银行家算法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8975BA921BD0BCC005E913B /* Debug */,
-				E8975BAA21BD0BCC005E913B /* Release */,
+				E813FD5D21A046A300257FAC /* Debug */,
+				E813FD5E21A046A300257FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E8975B9921BD0BCC005E913B /* Project object */;
+	rootObject = E813FD4D21A046A300257FAC /* Project object */;
 }

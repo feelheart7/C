@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8975BA521BD0BCC005E913B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8975BA421BD0BCC005E913B /* main.cpp */; };
+		E827ED9621AA96FF0061AD29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E827ED9521AA96FF0061AD29 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E8975B9F21BD0BCC005E913B /* CopyFiles */ = {
+		E827ED9021AA96FF0061AD29 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E8975BA121BD0BCC005E913B /* 混合索引组织 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "混合索引组织"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8975BA421BD0BCC005E913B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E827ED9221AA96FF0061AD29 /* 页式虚拟存储地址变换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "页式虚拟存储地址变换"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E827ED9521AA96FF0061AD29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E827ED9C21AA97100061AD29 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E8975B9E21BD0BCC005E913B /* Frameworks */ = {
+		E827ED8F21AA96FF0061AD29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +39,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8975B9821BD0BCC005E913B = {
+		E827ED8921AA96FF0061AD29 = {
 			isa = PBXGroup;
 			children = (
-				E8975BA321BD0BCC005E913B /* 混合索引组织 */,
-				E8975BA221BD0BCC005E913B /* Products */,
+				E827ED9421AA96FF0061AD29 /* 页式虚拟存储地址变换 */,
+				E827ED9321AA96FF0061AD29 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E8975BA221BD0BCC005E913B /* Products */ = {
+		E827ED9321AA96FF0061AD29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8975BA121BD0BCC005E913B /* 混合索引组织 */,
+				E827ED9221AA96FF0061AD29 /* 页式虚拟存储地址变换 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E8975BA321BD0BCC005E913B /* 混合索引组织 */ = {
+		E827ED9421AA96FF0061AD29 /* 页式虚拟存储地址变换 */ = {
 			isa = PBXGroup;
 			children = (
-				E8975BA421BD0BCC005E913B /* main.cpp */,
+				E827ED9521AA96FF0061AD29 /* main.cpp */,
+				E827ED9C21AA97100061AD29 /* main.h */,
 			);
-			path = "混合索引组织";
+			path = "页式虚拟存储地址变换";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E8975BA021BD0BCC005E913B /* 混合索引组织 */ = {
+		E827ED9121AA96FF0061AD29 /* 页式虚拟存储地址变换 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8975BA821BD0BCC005E913B /* Build configuration list for PBXNativeTarget "混合索引组织" */;
+			buildConfigurationList = E827ED9921AA96FF0061AD29 /* Build configuration list for PBXNativeTarget "页式虚拟存储地址变换" */;
 			buildPhases = (
-				E8975B9D21BD0BCC005E913B /* Sources */,
-				E8975B9E21BD0BCC005E913B /* Frameworks */,
-				E8975B9F21BD0BCC005E913B /* CopyFiles */,
+				E827ED8E21AA96FF0061AD29 /* Sources */,
+				E827ED8F21AA96FF0061AD29 /* Frameworks */,
+				E827ED9021AA96FF0061AD29 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "混合索引组织";
-			productName = "混合索引组织";
-			productReference = E8975BA121BD0BCC005E913B /* 混合索引组织 */;
+			name = "页式虚拟存储地址变换";
+			productName = "操作系统 页式虚拟存储地址变换";
+			productReference = E827ED9221AA96FF0061AD29 /* 页式虚拟存储地址变换 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E8975B9921BD0BCC005E913B /* Project object */ = {
+		E827ED8A21AA96FF0061AD29 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = wejudging;
 				TargetAttributes = {
-					E8975BA021BD0BCC005E913B = {
+					E827ED9121AA96FF0061AD29 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = E8975B9C21BD0BCC005E913B /* Build configuration list for PBXProject "混合索引组织" */;
+			buildConfigurationList = E827ED8D21AA96FF0061AD29 /* Build configuration list for PBXProject "页式虚拟存储地址变换" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = E8975B9821BD0BCC005E913B;
-			productRefGroup = E8975BA221BD0BCC005E913B /* Products */;
+			mainGroup = E827ED8921AA96FF0061AD29;
+			productRefGroup = E827ED9321AA96FF0061AD29 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8975BA021BD0BCC005E913B /* 混合索引组织 */,
+				E827ED9121AA96FF0061AD29 /* 页式虚拟存储地址变换 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E8975B9D21BD0BCC005E913B /* Sources */ = {
+		E827ED8E21AA96FF0061AD29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8975BA521BD0BCC005E913B /* main.cpp in Sources */,
+				E827ED9621AA96FF0061AD29 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E8975BA621BD0BCC005E913B /* Debug */ = {
+		E827ED9721AA96FF0061AD29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -152,7 +153,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -186,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		E8975BA721BD0BCC005E913B /* Release */ = {
+		E827ED9821AA96FF0061AD29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +212,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -239,20 +238,18 @@
 			};
 			name = Release;
 		};
-		E8975BA921BD0BCC005E913B /* Debug */ = {
+		E827ED9A21AA96FF0061AD29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V25278WG86;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E8975BAA21BD0BCC005E913B /* Release */ = {
+		E827ED9B21AA96FF0061AD29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V25278WG86;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,25 +259,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E8975B9C21BD0BCC005E913B /* Build configuration list for PBXProject "混合索引组织" */ = {
+		E827ED8D21AA96FF0061AD29 /* Build configuration list for PBXProject "页式虚拟存储地址变换" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8975BA621BD0BCC005E913B /* Debug */,
-				E8975BA721BD0BCC005E913B /* Release */,
+				E827ED9721AA96FF0061AD29 /* Debug */,
+				E827ED9821AA96FF0061AD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8975BA821BD0BCC005E913B /* Build configuration list for PBXNativeTarget "混合索引组织" */ = {
+		E827ED9921AA96FF0061AD29 /* Build configuration list for PBXNativeTarget "页式虚拟存储地址变换" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8975BA921BD0BCC005E913B /* Debug */,
-				E8975BAA21BD0BCC005E913B /* Release */,
+				E827ED9A21AA96FF0061AD29 /* Debug */,
+				E827ED9B21AA96FF0061AD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E8975B9921BD0BCC005E913B /* Project object */;
+	rootObject = E827ED8A21AA96FF0061AD29 /* Project object */;
 }
